@@ -27,6 +27,42 @@ class GeoTraffic:
     transmitted_data_xpath = "(//*[contains(@class,'MuiTable-root css-s064k4')]/tbody/tr/descendant::td[7])"
     total_data_xpath = "(//*[contains(@class,'MuiTable-root css-s064k4')]/tbody/tr/descendant::td[8])"
 
+    table_title_xpath = "//div[contains(@class,'MuiBox-root css-1c1kq07')]"
+
+    rows_per_page_xpath = "(//div[contains(@role,'button')])[2]"
+    rows_per_page_dropdown_xpath = "(//ul[contains(@role,'listbox')])/li"
+
+
+    def rows_per_page(self):
+        self.driver.find_element(By.XPATH, self.rows_per_page_xpath).click()
+
+    def rows_per_page_dropdown(self):
+        list = self.driver.find_elements(By.XPATH, self.rows_per_page_dropdown_xpath)
+        print(list)
+        for i in list:
+            if i.text == '100':
+                i.click()
+                break
+
+    def table_title(self):
+        title = self.driver.find_element(By.XPATH, self.table_title_xpath).text
+        print("title of the table:", title)
+
+    def summary_table_data(self):
+        tbody = self.driver.find_element(By.XPATH, "//*[@class='MuiBox-root css-1fpff4c']/table")
+        data = []
+        for tr in tbody.find_elements(By.XPATH, "//*[@class='MuiBox-root css-1fpff4c']/table//tr"):
+            row = [item.text for item in tr.find_elements(By.XPATH, "//*[@class='MuiBox-root css-1fpff4c']/table//td")]
+            data.append(row)
+        print(data, end=' ')
+
+    def ip_tracking_table_data(self):
+        tbody = self.driver.find_element(By.XPATH, "//*[@class='MuiBox-root css-1fpff4c']/table")
+        data = []
+        for tr in tbody.find_elements(By.XPATH, "//*[@class='MuiBox-root css-1fpff4c']/table//tr"):
+            row = [item.text for item in tr.find_elements(By.XPATH, "//*[@class='MuiBox-root css-1fpff4c']/table//td")]
+            data.append(row)
+        print(data, end=' ')
 
     def verify_data(self):
         data = self.driver.find_elements(By.XPATH, self.total_data_xpath)
@@ -171,7 +207,7 @@ class GeoTraffic:
         print(len(dates))
         for ele in dates:
             print(ele.text)
-            if ele.text == "3":
+            if ele.text == "5":
                 ele.click()
                 break
 

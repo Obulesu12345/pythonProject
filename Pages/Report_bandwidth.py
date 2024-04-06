@@ -73,27 +73,27 @@ class Bandwidth:
     def from_date(self):
         element = self.driver.find_element(By.XPATH, "(//input[contains(@aria-invalid,'false')])[3]")
         element.click()
-        # mon_yy = self.driver.find_element(By.XPATH, "//div[@class='MuiPickersFadeTransitionGroup-root css-1bx5ylf']").text
-        # print(mon_yy)
-        # while True:
-        #     if mon_yy == "April 2024":
-        #         break
-        #     else:
-        #         self.driver.find_element(By.XPATH, "//button[contains(@title,'Previous month')]").click()
-        #
-        # dates = self.driver.find_elements(By.XPATH, "//button[contains(@role,'gridcell')]")
-        # print(len(dates))
-        #
-        # for ele in dates:
-        #     print(ele.text)
-        #     if ele.text == "1":
-        #         ele.click()
-        #         break
+        mon_yy = self.driver.find_element(By.XPATH, "//div[@class='MuiPickersFadeTransitionGroup-root css-1bx5ylf']").text
+        print(mon_yy)
+        while True:
+            if mon_yy == "April 2024":
+                break
+            else:
+                self.driver.find_element(By.XPATH, "//button[contains(@title,'Previous month')]").click()
 
-        before_minute = self.driver.find_element(By.XPATH, "(//span[contains(@class,'MuiSlider-thumb MuiSlider-thumbSizeSmall MuiSlider-thumbColorPrimary MuiSlider-thumb MuiSlider-thumbSizeSmall MuiSlider-thumbColorPrimary css-1rw23sq')])[1]")
-        after_minute = self.driver.find_element(By.XPATH, "(//input[contains(@aria-orientation,'horizontal')])[1]")
-        actions = ActionChains(self.driver)
-        actions.drag_and_drop(before_minute, after_minute).perform()
+        dates = self.driver.find_elements(By.XPATH, "//button[contains(@role,'gridcell')]")
+        print(len(dates))
+
+        for ele in dates:
+            print(ele.text)
+            if ele.text == "1":
+                ele.click()
+                break
+
+        # before_minute = self.driver.find_element(By.XPATH, "(//span[contains(@class,'MuiSlider-thumb MuiSlider-thumbSizeSmall MuiSlider-thumbColorPrimary MuiSlider-thumb MuiSlider-thumbSizeSmall MuiSlider-thumbColorPrimary css-1rw23sq')])[1]")
+        # after_minute = self.driver.find_element(By.XPATH, "(//input[contains(@aria-orientation,'horizontal')])[1]")
+        # actions = ActionChains(self.driver)
+        # actions.drag_and_drop(before_minute, after_minute).perform()
 
     def to_date(self):
         element = self.driver.find_element(By.XPATH, "(//input[contains(@aria-invalid,'false')])[4]")
@@ -108,10 +108,8 @@ class Bandwidth:
 
         dates = self.driver.find_elements(By.XPATH, "//button[contains(@role,'gridcell')]")
         print(len(dates))
-
         for ele in dates:
-            print(ele.text)
-            if ele.text == "2":
+            if ele.text == "3":
                 ele.click()
                 break
 

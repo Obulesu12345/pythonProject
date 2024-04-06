@@ -1,5 +1,4 @@
 import time
-
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -48,9 +47,9 @@ class Iptracking:
             elif unit == 'MB':
                 converted_sizes.append(float(value) * 1024)
 
-        print(converted_sizes)
+        # print(converted_sizes)
         total_data = sum(converted_sizes)
-        print(total_data)
+        print("total data:", total_data)
 
         data = self.driver.find_elements(By.XPATH, self.transmitted_data_xpath)
         l = []
@@ -74,9 +73,9 @@ class Iptracking:
                 converted_sizes.append(float(value))
             elif unit == 'MB':
                 converted_sizes.append(float(value) * 1024)
-        print(converted_sizes)
+        # print(converted_sizes)
         transmitted_data = sum(converted_sizes)
-        print(transmitted_data)
+        print("transmitted data:", transmitted_data)
 
         data = self.driver.find_elements(By.XPATH, self.received_data_xpath)
         l = []
@@ -100,12 +99,13 @@ class Iptracking:
                 converted_sizes.append(float(value))
             elif unit == 'MB':
                 converted_sizes.append(float(value) * 1024)
-        print(converted_sizes)
+        # print(converted_sizes)
         received_data = sum(converted_sizes)
-        print(received_data)
+        print("received data:", received_data)
 
         total = received_data + transmitted_data
-        print(total)
+        print("received and transmitted data total:", total)
+
         if total==total_data:
             print("total data matched")
         else:
@@ -270,3 +270,88 @@ class Iptracking:
 
         element = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH, self.ip_tracking_page_xpath)))
         element.click()
+
+
+
+    def total_table_data_for_single_row(self):
+        # data = self.driver.find_elements(By.XPATH, self.total_data_xpath)
+        r = []
+        t = []
+        t_data = []
+        # for i in range(1, len(data) + 1):
+        received = self.driver.find_element(By.XPATH,"(//table[@class='MuiTable-root css-s064k4']/tbody/tr[1]/descendant::td[3])").text
+        transmitted = self.driver.find_element(By.XPATH, "(//table[@class='MuiTable-root css-s064k4']/tbody/tr[1]/descendant::td[4])").text
+        total = self.driver.find_element(By.XPATH, "(//table[@class='MuiTable-root css-s064k4']/tbody/tr[1]/descendant::td[5])").text
+            # s = self.driver.find_element(By.XPATH,"(//*[contains(@class,'MuiTable-root css-s064k4')]/tbody/tr/descendant::td[5])[" + str(i) + "]").text
+        r.append(received)
+        t.append(transmitted)
+        t_data.append(total)
+        print(r)
+        print(t)
+        print(t_data)
+
+        sizes = r
+        r_converted_sizes = []
+        for size in sizes:
+            parts = size.split()
+            if len(parts) == 2:
+                value, unit = parts
+                if unit == 'Bytes':
+                    r_converted_sizes.append(float(value) / 1024)
+                elif unit == 'KB':
+                    r_converted_sizes.append(float(value))
+                elif unit == 'MB':
+                    r_converted_sizes.append(float(value) * 1024)
+                elif unit == "GB":
+                    r_converted_sizes.append(float(value) * 1024 * 1024 * 1024)
+            else:
+                print("received data:", size)
+        print(r_converted_sizes)
+        received_data = r_converted_sizes
+
+        sizes= t
+        t_converted_sizes = []
+        for size in sizes:
+            parts = size.split()
+            if len(parts) == 2:
+                value, unit = parts
+                if unit == 'Bytes':
+                    t_converted_sizes.append(float(value) / 1024)
+                elif unit == 'KB':
+                    t_converted_sizes.append(float(value))
+                elif unit == 'MB':
+                    t_converted_sizes.append(float(value) * 1024)
+                elif unit == "GB":
+                    t_converted_sizes.append(float(value) * 1024 * 1024 * 1024)
+            else:
+                print("transmitt data:", size)
+        print(t_converted_sizes)
+        transmitt_data = t_converted_sizes
+
+
+        sizes = t_data
+        converted_sizes = []
+        for size in sizes:
+            parts = size.split()
+            if len(parts) == 2:
+                value, unit = parts
+                if unit == 'Bytes':
+                    converted_sizes.append(float(value) / 1024)
+                elif unit == 'KB':
+                    converted_sizes.append(float(value))
+                elif unit == 'MB':
+                    converted_sizes.append(float(value) * 1024)
+                elif unit == "GB":
+                    converted_sizes.append(float(value) * 1024 * 1024 * 1024)
+            else:
+                print("total data:", size)
+        print(converted_sizes)
+        total_data = converted_sizes
+        print("total data:", total_data)
+
+        total = sum(received_data + transmitt_data)
+        print("total received and transmitted data:",total)
+        if total_data == total:
+            print("Total data meets the condition")
+        else:
+            print("Total data does not meet the condition")
