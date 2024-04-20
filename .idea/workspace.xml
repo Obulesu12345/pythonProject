@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2644f19a-cb92-4663-8b65-a42cfd624117" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigFiles/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Report_bandwidth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/ZoomViewPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/billing_payment_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/instance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/ip_tracking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/privilege.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/profile_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/setting_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_dashboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_firewall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_instance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_ip_tracking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_payment_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_privilege.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_signup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_top_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_zoomview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugins/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugins/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/ReadConfiguration.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping>
+      <option value="repository" />
+    </branch-grouping>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python312/Lib/configparser.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2dzCUa61HgLH3Rfity4VyVfkTMz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_band_width.TestBandwidth.executor": "Run",
+    "Python tests.Python tests for test_band_width.TestBandwidth.test_report_bandwidth_login_page.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_Select_date_and_time.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_Select_date_and_time_.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_Select_date_and_time_and_display_data_.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_report_login_page.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_table_recived_data.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_table_total_data.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_table_transmitted_data.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_table_verify_data.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_table_verify_single_row_table_data.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_table_verify_total_table_data.executor": "Run",
+    "Python tests.Python tests for test_bandwidth.TestBandwidth.test_verify_report_login_page.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dash_board_report_page.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dash_table.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_Billing.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_backup_page.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_instance_page.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_instance_table_shut_downs.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_instance_table_state.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_instance_table_verify_instance_running_and_shutdown_state.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_location.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_location_dropdown.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_main_search.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_monitoring.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_service_warn.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_table.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_total_instance.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_edit_tag.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_login_page_with_credentials.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_performance_partner.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_question_mark.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_services.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_table_action_add_tag.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_table_action_assign_partner.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_table_action_edit_instance.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_table_action_edit_tag.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_table_action_performance.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_table_action_remove_partner.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_table_csv_report.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_table_pdf_report.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_table_search.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_tickets.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_verify_dashboard_total_instance_page_crit.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_verify_dashboard_total_instance_page_ok.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_verify_dashboard_total_instance_page_total.executor": "Run",
+    "Python tests.Python tests for test_dashboard.Test_Login_Dashboard_Page.test_verify_dashboard_total_instance_page_warn.executor": "Run",
+    "Python tests.Python tests for test_firewall.TestFirewall.test_firewall_incoming_page.executor": "Run",
+    "Python tests.Python tests for test_firewall.TestFirewall.test_firewall_incoming_select_all_data.executor": "Run",
+    "Python tests.Python tests for test_firewall.TestFirewall.test_firewall_incoming_wan_tabel_page.executor": "Run",
+    "Python tests.Python tests for test_firewall.TestFirewall.test_firewall_outgoing_lan_others_table_page.executor": "Run",
+    "Python tests.Python tests for test_firewall.TestFirewall.test_firewall_policy_overview_activity_tabel_page.executor": "Run",
+    "Python tests.Python tests for test_firewall.TestFirewall.test_firewall_policy_overview_tabel_page.executor": "Run",
+    "Python tests.Python tests for test_firewall.TestFirewall.test_firewall_policy_page.executor": "Run",
+    "Python tests.Python tests for test_firewall.TestFirewall.test_incoming_page_total_instance.executor": "Run",
+    "Python tests.Python tests for test_firewall.TestFirewall.test_verify_firewall_policy_page.executor": "Run",
+    "Python tests.Python tests for test_firewall.test_firewall_outgoing_lan_others_table_page.executor": "Run",
+    "Python tests.Python tests for test_geo_traffice.TestGeotraffic.test_geo_traffic_table_data_verify.executor": "Run",
+    "Python tests.Python tests for test_geo_traffice.TestGeotraffic.test_geo_traffic_table_verify.executor": "Run",
+    "Python tests.Python tests for test_geo_traffice.TestGeotraffic.test_ip_tracking_verify_single_row_table_data.executor": "Run",
+    "Python tests.Python tests for test_geo_traffice.TestGeotraffic.test_report_geotraffice_login_page.executor": "Run",
+    "Python tests.Python tests for test_geo_traffice.TestGeotraffic.test_select_date_and_time.executor": "Run",
+    "Python tests.Python tests for test_geo_traffice.TestGeotraffic.test_top_apps_table_verify.executor": "Run",
+    "Python tests.Python tests for test_geo_traffice.TestGeotraffic.test_verify_report_login_page.executor": "Run",
+    "Python tests.Python tests for test_geotraffic.TestGeotraffic.executor": "Run",
+    "Python tests.Python tests for test_geotraffic.TestGeotraffic.test_geo_traffic_table_data.executor": "Run",
+    "Python tests.Python tests for test_geotraffic.TestGeotraffic.test_report_geotraffice_login_page.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_instance_table_crit.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_instance_table_criticals.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_instance_table_ok.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_instance_table_verify_total.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_instance_table_warn.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_instance_table_warnings.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_login_page_with_credentials.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_manage_instance_page.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_manage_instance_page_table.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_manage_instance_table_click_on_instance.executor": "Run",
+    "Python tests.Python tests for test_instance.TestInstance.test_manage_instance_table_click_on_notification.executor": "Run",
+    "Python tests.Python tests for test_instance.TestPrivilege.test_instance_criticals.executor": "Run",
+    "Python tests.Python tests for test_instance.TestPrivilege.test_instance_warning.executor": "Run",
+    "Python tests.Python tests for test_instance.TestPrivilege.test_login_page_with_credentials.executor": "Run",
+    "Python tests.Python tests for test_instance.TestPrivilege.test_manage_instance_page.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestBandwidth.test_ip_tracking_display_data.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestBandwidth.test_ip_tracking_table_data.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestBandwidth.test_ip_tracking_table_received_data.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestBandwidth.test_ip_tracking_table_total_data.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestBandwidth.test_ip_tracking_table_transmitted_data.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestBandwidth.test_ip_tracking_table_verify.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestBandwidth.test_report_iptracking_login_page.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestBandwidth.test_select_date_and_time.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestBandwidth.test_verify_report_login_page.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestIpTracking.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestIpTracking.test_ip_tracking_display_data.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestIpTracking.test_ip_tracking_table_verify.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestIpTracking.test_ip_tracking_verify_single_row_table_data.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestIpTracking.test_report_iptracking_login_page.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestIpTracking.test_select_date_and_time.executor": "Run",
+    "Python tests.Python tests for test_ip_tracking.TestIpTracking.test_verify_report_login_page.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_forgot_password.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_forgot_password_back_to_login.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_forgot_password_entered_with_mail.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_forgot_password_entered_wrong_mail.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_forgot_password_otp.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_forgot_password_reset.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_incorrect_url.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_page_with_after_the_password.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_page_with_credentials.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_page_with_credentials_verify_dashboard_page.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_page_with_wrong_credentials.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_page_with_wrong_email.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_page_with_wrong_password.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_verify.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_logout_page.executor": "Run",
+    "Python tests.Python tests for test_payment_history.TestPayment_history.test_payment_history_page_table.executor": "Run",
+    "Python tests.Python tests for test_payment_history.TestPayment_history.test_verify_billing_invoices_page.executor": "Run",
+    "Python tests.Python tests for test_payment_history.TestPayment_history.test_verify_billing_payment_page.executor": "Run",
+    "Python tests.Python tests for test_payment_history.TestPayment_history.test_verify_firewall_policy_page.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_add_user.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_login_page_with_credentials.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_privilege_page.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_privilege_page_dropdown.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_user_actions.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_user_edit_actions.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_user_log_actions.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_user_password_actions.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_user_role_actions.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_user_table_actions_for_instance.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_user_verify_email.executor": "Run",
+    "Python tests.Python tests for test_privilege.TestPrivilege.test_users_table_data.executor": "Run",
+    "Python tests.Python tests for test_privilege.test_user_log_actions.executor": "Run",
+    "Python tests.Python tests for test_profile.TestProfile.test_profile_page.executor": "Run",
+    "Python tests.Python tests for test_profile.TestProfile.test_verify_firewall_policy_page.executor": "Run",
+    "Python tests.Python tests for test_setting.TestFirewall.test_cloud_connect.executor": "Run",
+    "Python tests.Python tests for test_setting.TestFirewall.test_daily_reports.executor": "Run",
+    "Python tests.Python tests for test_setting.TestFirewall.test_daily_reports_for_technician_report.executor": "Run",
+    "Python tests.Python tests for test_setting.TestFirewall.test_notification.executor": "Run",
+    "Python tests.Python tests for test_setting.TestFirewall.test_setting_page.executor": "Run",
+    "Python tests.Python tests for test_setting.TestFirewall.test_verify_setting_page.executor": "Run",
+    "Python tests.Python tests for test_signup.TestSignup.test_login_as_partner.executor": "Run",
+    "Python tests.Python tests for test_signup.TestSignup.test_login_as_partner_as_verify.executor": "Run",
+    "Python tests.Python tests for test_signup.TestSignup.test_login_as_partner_verify_page.executor": "Run",
+    "Python tests.Python tests for test_signup.TestSignup.test_signip_up_with_wrong_url.executor": "Run",
+    "Python tests.Python tests for test_signup.TestSignup.test_signup_page.executor": "Run",
+    "Python tests.Python tests for test_signup.TestSignup.test_signup_verify.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_ip_tracking_table_verify.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_report_summary_login_page.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_select_date_and_time.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_display_data.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_external_communication_table_verify.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_report_apps_table_verify.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_report_city_wise_traffic_table_verify.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_report_csv.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_report_each_row_table_data.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_report_each_row_table_data_for_Apps.executor": "Run",
+    "Python tests.Python tests for test_summary_report.TestIpTracking.test_verify_report_login_page.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestBandwidth.test_ip_tracking_table_received_data.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestBandwidth.test_ip_tracking_table_verify.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestBandwidth.test_report_topapps_login_page.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestBandwidth.test_select_date_and_time.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestBandwidth.test_verify_report_login_page.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestTopapps.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestTopapps.test_ip_tracking_verify_single_row_table_data.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestTopapps.test_top_apps_table_data.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestTopapps.test_top_apps_table_received_data.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestTopapps.test_top_apps_table_verify.executor": "Run",
+    "Python tests.Python tests for test_top_apps.TestTopapps.test_verify_report_login_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_apps_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_city_wise_traffic_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_graph.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_graph_all_instance.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_graph_one_instance.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_graph_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_internet_activities_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_internet_external_communication_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_internet_instance_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_internet_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_internet_total_instances.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_manage_zoomview_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_pause_alerts_table.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_service_table.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_service_total_instance_count.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_session_flow_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_verify_manage_zoomview_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_zoomview_service_check_instance_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.TestZoomView.test_zoomview_service_page.executor": "Run",
+    "Python tests.Python tests for test_zoomview.test_graph_all_instance.executor": "Run",
+    "Python tests.pytest for test_bandwidth.TestBandwidth.executor": "Run",
+    "Python tests.pytest for test_bandwidth.TestBandwidth.test.executor": "Run",
+    "Python tests.pytest for test_bandwidth.TestBandwidth.test_Select_date_and_time_and_display_data.executor": "Run",
+    "Python tests.pytest for test_bandwidth.TestBandwidth.test_table_verify_single_row_table_data.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_instance_table_state.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_instance_table_verify_instance_running_and_shutdown_state.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_location.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_location_dropdown.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_service_warn.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_table.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_login_page_with_credentials.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_table_action_performance.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_verify_dashboard_total_instance_page_ok.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_verify_dashboard_total_instance_page_total.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_incoming_captive_tabel_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_incoming_others_tabel_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_incoming_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_incoming_wan_tabel_for_single_instance.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_incoming_wan_tabel_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_outgoing_captive_table_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_outgoing_lan_others_table_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_outgoing_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_outgoing_wan_table_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_policy_overview_activity_tabel_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_policy_overview_tabel_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_firewall_policy_page.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_incoming_page_total_instance.executor": "Run",
+    "Python tests.pytest for test_firewall.TestFirewall.test_verify_firewall_policy_page.executor": "Run",
+    "Python tests.pytest for test_geo_traffice.TestGeotraffic.executor": "Run",
+    "Python tests.pytest for test_geo_traffice.TestGeotraffic.test_geo_traffic_csv.executor": "Run",
+    "Python tests.pytest for test_geo_traffice.TestGeotraffic.test_geo_traffic_table_data.executor": "Run",
+    "Python tests.pytest for test_geo_traffice.TestGeotraffic.test_ip_tracking_verify_single_row_table_data.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_instance_performance.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_instance_performance_select.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_instance_performance_select_all.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_instance_performance_select_one_instance.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_instance_table_crit.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_instance_table_ok.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_instance_table_verify_total.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_instance_table_warn.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_instance_table_warnings.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_instance_warning.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_login_page_with_credentials.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_manage_instance_page_table_data.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_verify_instance_table_crit_and_ashboard_service_crit.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_verify_instance_table_ok_and_ashboard_service_ok.executor": "Run",
+    "Python tests.pytest for test_instance.TestInstance.test_verify_instance_table_warn_and_ashboard_service_warn.executor": "Run",
+    "Python tests.pytest for test_ip_tracking.TestIpTracking.executor": "Run",
+    "Python tests.pytest for test_ip_tracking.TestIpTracking.test_ip_tracking_csv.executor": "Run",
+    "Python tests.pytest for test_ip_tracking.TestIpTracking.test_ip_tracking_display_data.executor": "Run",
+    "Python tests.pytest for test_ip_tracking.TestIpTracking.test_ip_tracking_verify_single_row_table_data.executor": "Run",
+    "Python tests.pytest for test_ip_tracking.TestIpTracking.test_select_date_and_time.executor": "Run",
+    "Python tests.pytest for test_ip_tracking.TestIpTracking.test_verify_report_login_page.executor": "Run",
+    "Python tests.pytest for test_lama.TestFirewall.test_setting_page.executor": "Run",
+    "Python tests.pytest for test_lama.TestLama.executor": "Run",
+    "Python tests.pytest for test_lama.TestLama.test_lama_uat_page.executor": "Run",
+    "Python tests.pytest for test_lama.TestLama.test_lama_verify_uat_page.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_forgot_password.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_forgot_password_back_to_login.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_forgot_password_entered_with_mail.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_forgot_password_entered_wrong_mail.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_forgot_password_otp.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_forgot_password_reset.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_incorrect_url.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_login_page_with_credentials.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_login_page_with_credentials_verify_dashboard_page.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_login_page_with_empty_credentials.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_login_page_with_wrong_credentials.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_login_page_with_wrong_email.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_login_page_with_wrong_password.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_login_verify.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_logout_page.executor": "Run",
+    "Python tests.pytest for test_payment_history.TestPayment_history.executor": "Run",
+    "Python tests.pytest for test_payment_history.TestPayment_history.test_payment_history_page_table.executor": "Run",
+    "Python tests.pytest for test_payment_history.TestPayment_history.test_verify_billing_invoices_page.executor": "Run",
+    "Python tests.pytest for test_payment_history.TestPayment_history.test_verify_billing_payment_page.executor": "Run",
+    "Python tests.pytest for test_privilege.TestPrivilege.executor": "Run",
+    "Python tests.pytest for test_privilege.TestPrivilege.test_add_user.executor": "Run",
+    "Python tests.pytest for test_privilege.TestPrivilege.test_privilege_page.executor": "Run",
+    "Python tests.pytest for test_privilege.TestPrivilege.test_user_edit_actions.executor": "Run",
+    "Python tests.pytest for test_privilege.TestPrivilege.test_user_log_actions.executor": "Run",
+    "Python tests.pytest for test_privilege.TestPrivilege.test_user_password_actions.executor": "Run",
+    "Python tests.pytest for test_privilege.TestPrivilege.test_user_role_actions.executor": "Run",
+    "Python tests.pytest for test_privilege.TestPrivilege.test_user_table_actions_for_instance.executor": "Run",
+    "Python tests.pytest for test_privilege.TestPrivilege.test_user_verify_email.executor": "Run",
+    "Python tests.pytest for test_profile.TestProfile.test_profile_page.executor": "Run",
+    "Python tests.pytest for test_profile.TestProfile.test_verify_profile_login_page.executor": "Run",
+    "Python tests.pytest for test_setting.TestFirewall.executor": "Run",
+    "Python tests.pytest for test_setting.TestFirewall.test_daily_reports.executor": "Run",
+    "Python tests.pytest for test_setting.TestFirewall.test_daily_reports_for_technician_report.executor": "Run",
+    "Python tests.pytest for test_setting.TestFirewall.test_notification.executor": "Run",
+    "Python tests.pytest for test_setting.TestFirewall.test_setting_page.executor": "Run",
+    "Python tests.pytest for test_setting.TestFirewall.test_verify_setting_page.executor": "Run",
+    "Python tests.pytest for test_signup.TestSignup.executor": "Run",
+    "Python tests.pytest for test_signup.TestSignup.test_login_as_partner_as_verify_wrong_credentials.executor": "Run",
+    "Python tests.pytest for test_signup.TestSignup.test_signup_verify.executor": "Run",
+    "Python tests.pytest for test_summary_report.TestIpTracking.executor": "Run",
+    "Python tests.pytest for test_summary_report.TestIpTracking.test_summary_display_data.executor": "Run",
+    "Python tests.pytest for test_summary_report.TestIpTracking.test_summary_report_csv.executor": "Run",
+    "Python tests.pytest for test_summary_report.TestIpTracking.test_summary_report_each_row_table_data_for_Apps.executor": "Run",
+    "Python tests.pytest for test_summary_report.TestIpTracking.test_summary_report_each_row_table_data_for_External_IP_Communication.executor": "Run",
+    "Python tests.pytest for test_summary_report.TestIpTracking.test_summary_report_each_row_table_data_for_city_wise_traffic.executor": "Run",
+    "Python tests.pytest for test_top_apps.TestTopapps.executor": "Run",
+    "Python tests.pytest for test_top_apps.TestTopapps.test_csv.executor": "Run",
+    "Python tests.pytest for test_top_apps.TestTopapps.test_select_date_and_time.executor": "Run",
+    "Python tests.pytest for test_top_apps.TestTopapps.test_top_apps_table_data.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_graph_all_instance.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_graph_instance_page_check_interval.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_graph_one_instance.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_graph_page.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_internet_activities_page.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_internet_external_communication_page.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_internet_instance_page.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_internet_instance_page_check_interval.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_internet_page.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_internet_total_instances.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_manage_zoomview_page.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_pause_alerts_table.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_service_table.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_service_total_instance_count.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_session_flow_page.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_verify_manage_zoomview_page.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_zoomview_service_check_instance_page.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_zoomview_service_page_caputure_hostname_data.executor": "Run",
+    "Python tests.pytest for test_zoomview.TestZoomView.test_zoomview_service_page_select_one_instance.executor": "Run",
+    "Python.class1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/zcsu058/PycharmProjects/pythonProject",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zcsu058\PycharmProjects\pythonProject" />
+      <recent name="C:\Users\zcsu058\PycharmProjects\pythonProject\Pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_report_csv">
+    <configuration name="Python tests for test_geotraffic.TestGeotraffic.test_geo_traffic_table_data" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_geotraffic.TestGeotraffic.test_geo_traffic_table_data&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_summary_report.TestIpTracking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_summary_report.TestIpTracking&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_summary_report.TestIpTracking.test_select_date_and_time" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_summary_report.TestIpTracking.test_select_date_and_time&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_summary_report.TestIpTracking.test_summary_display_data" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_summary_report.TestIpTracking.test_summary_display_data&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_summary_report.TestIpTracking.test_summary_report_csv" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_summary_report.TestIpTracking.test_summary_report_csv&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_report_csv" />
+        <item itemvalue="Python tests.Python tests for test_summary_report.TestIpTracking.test_select_date_and_time" />
+        <item itemvalue="Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_display_data" />
+        <item itemvalue="Python tests.Python tests for test_summary_report.TestIpTracking" />
+        <item itemvalue="Python tests.Python tests for test_geotraffic.TestGeotraffic.test_geo_traffic_table_data" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2644f19a-cb92-4663-8b65-a42cfd624117" name="Changes" comment="" />
+      <created>1711001536759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711001536759</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1712313330029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712313330029</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1712313543216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712313543216</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <option name="closed" value="true" />
+      <created>1712313637930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712313637930</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <option name="closed" value="true" />
+      <created>1712313706617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712313706617</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test">
+      <option name="closed" value="true" />
+      <created>1712314106252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712314106252</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test">
+      <option name="closed" value="true" />
+      <created>1712315600394</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712315600394</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test">
+      <option name="closed" value="true" />
+      <created>1712386080357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712386080357</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test">
+      <option name="closed" value="true" />
+      <created>1712387248358</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712387248358</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test">
+      <option name="closed" value="true" />
+      <created>1712745338670</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712745338670</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+</project>

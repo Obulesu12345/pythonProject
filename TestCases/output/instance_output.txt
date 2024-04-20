@@ -1,0 +1,17 @@
+State	OS	Instance	Private IP	Public IP	OK	Warn	Crit	Notification	Actions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
