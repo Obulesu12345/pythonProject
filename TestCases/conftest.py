@@ -1,8 +1,6 @@
 from selenium import webdriver
 from utilities.ReadConfiguration import read_configuration
 import pytest
-import sys
-sys.path.append('C:\\Users\\zcsu058\\PycharmProjects\\pythonProject\\utilities\\ReadConfiguration.py')
 
 @pytest.fixture()
 def setup_and_teardown(request):
