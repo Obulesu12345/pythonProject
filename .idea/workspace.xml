@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2644f19a-cb92-4663-8b65-a42cfd624117" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/dashboard_page.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/dashboard_page.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/location.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/location.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_band_width.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_band_width.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_instance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_privilege.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_privilege.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_zoomview.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_zoomview.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/report_bandwidth.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/report_bandwidth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/ReadConfiguration.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/ReadConfiguration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,7 +405,7 @@
       <recent name="C:\Users\zcsu058\PycharmProjects\pythonProject\Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data">
+  <component name="RunManager" selected="Python tests.pytest for test_login.TestLogin.test_login_page_with_credentials">
     <configuration name="pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -450,7 +440,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_privilege.TestPrivilege.test_user_edit_actions" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.TestLogin.test_login_page_with_credentials" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -463,11 +453,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_privilege.TestPrivilege.test_user_edit_actions&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_login_page_with_credentials&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_privilege.TestPrivilege.test_user_verify_email" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.TestLogin.test_login_verify" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -480,7 +470,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_privilege.TestPrivilege.test_user_verify_email&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_login_verify&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -503,11 +493,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_page_with_credentials" />
+        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_verify" />
         <item itemvalue="Python tests.pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data" />
         <item itemvalue="Python tests.pytest for test_zoomview.TestZoomView" />
         <item itemvalue="Python tests.pytest for test_instance.TestInstance" />
-        <item itemvalue="Python tests.pytest for test_privilege.TestPrivilege.test_user_verify_email" />
-        <item itemvalue="Python tests.pytest for test_privilege.TestPrivilege.test_user_edit_actions" />
       </list>
     </recent_temporary>
   </component>
