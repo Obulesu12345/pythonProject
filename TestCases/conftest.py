@@ -1,9 +1,9 @@
 from selenium import webdriver
-from utilities import ReadConfiguration
+from utilities.ReadConfiguration import read_configuration
 import pytest
 @pytest.fixture()
 def setup_and_teardown(request):
-    browser = ReadConfiguration.read_configuration("basic info","browser")
+    browser = read_configuration("basic info","browser")
     driver = None
     if browser.__eq__("chrome"):
         driver = webdriver.Chrome()

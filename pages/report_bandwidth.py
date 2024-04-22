@@ -140,13 +140,16 @@ class Bandwidth:
         offset_minutes = 0
         offset_seconds = 0
         before_minute = self.driver.find_element(By.XPATH, "(//input[contains(@type,'range')])[1]")
+        before_min = self.driver.find_element(By.XPATH, "(//input[contains(@min,'0')])")
         after_minute = self.driver.find_element(By.XPATH, "(//input[contains(@value,'0')])[2]")
         before_sec = self.driver.find_element(By.XPATH, "(//input[contains(@type,'range')])[2]")
         after_sec = self.driver.find_element(By.XPATH, "//div[@class='MuiBox-root css-8atqhb']/span[2]/span[3]")
         actions = ActionChains(self.driver)
-        actions.drag_and_drop_by_offset(before_minute, 0, offset_minutes)
-        actions.drag_and_drop_by_offset(before_sec, 0, offset_seconds)
-        actions.perform()
+        actions.drag_and_drop_by_offset(before_min, -100, 0).perform()
+        # actions.click_and_hold(before_min).move_by_offset(100, 0).release().perform()
+        # actions.drag_and_drop_by_offset(before_minute, 0, offset_minutes)
+        # actions.drag_and_drop_by_offset(before_sec, 0, offset_seconds)
+        # actions.perform()
         # actions.click_and_hold(before_minute).move_to_element(after_minute).release().perform()
 
     def to_date(self):

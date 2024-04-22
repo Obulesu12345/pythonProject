@@ -5,69 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2644f19a-cb92-4663-8b65-a42cfd624117" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigFiles/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Report_bandwidth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/ZoomViewPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/billing_payment_history.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/instance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/ip_tracking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/privilege.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/profile_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/setting_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_dashboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_firewall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_instance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_ip_tracking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_payment_history.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_privilege.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_profile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_setting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_signup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_top_apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_zoomview.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/mail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/packages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/screen-diff/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/environment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/executors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/ReadConfiguration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/dashboard_page.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/dashboard_page.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/location.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/location.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_band_width.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_band_width.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_instance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_privilege.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_privilege.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_zoomview.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_zoomview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/report_bandwidth.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/report_bandwidth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,12 +42,20 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="coc" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python312/Lib/configparser.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
@@ -303,11 +262,13 @@
     "Python tests.Python tests for test_zoomview.TestZoomView.test_zoomview_service_check_instance_page.executor": "Run",
     "Python tests.Python tests for test_zoomview.TestZoomView.test_zoomview_service_page.executor": "Run",
     "Python tests.Python tests for test_zoomview.test_graph_all_instance.executor": "Run",
+    "Python tests.pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data.executor": "Run",
     "Python tests.pytest for test_bandwidth.TestBandwidth.executor": "Run",
     "Python tests.pytest for test_bandwidth.TestBandwidth.test.executor": "Run",
     "Python tests.pytest for test_bandwidth.TestBandwidth.test_Select_date_and_time_and_display_data.executor": "Run",
     "Python tests.pytest for test_bandwidth.TestBandwidth.test_table_verify_single_row_table_data.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dash_board_report_page.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_instance_table_state.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_instance_table_verify_instance_running_and_shutdown_state.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_location.executor": "Run",
@@ -315,6 +276,7 @@
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_service_warn.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_table.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_login_page_with_credentials.executor": "Run",
+    "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_services.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_table_action_performance.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_verify_dashboard_total_instance_page_ok.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_verify_dashboard_total_instance_page_total.executor": "Run",
@@ -436,7 +398,7 @@
     "Python.class1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/zcsu058/PycharmProjects/pythonProject",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
@@ -453,8 +415,8 @@
       <recent name="C:\Users\zcsu058\PycharmProjects\pythonProject\Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_report_csv">
-    <configuration name="Python tests for test_geotraffic.TestGeotraffic.test_geo_traffic_table_data" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data">
+    <configuration name="pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -464,12 +426,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_geotraffic.TestGeotraffic.test_geo_traffic_table_data&quot;" />
+      <option name="_new_target" value="&quot;test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_summary_report.TestIpTracking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_instance.TestInstance" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -479,12 +443,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_summary_report.TestIpTracking&quot;" />
+      <option name="_new_target" value="&quot;test_instance.TestInstance&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_summary_report.TestIpTracking.test_select_date_and_time" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_privilege.TestPrivilege.test_user_edit_actions" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -494,12 +460,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_summary_report.TestIpTracking.test_select_date_and_time&quot;" />
+      <option name="_new_target" value="&quot;test_privilege.TestPrivilege.test_user_edit_actions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_summary_report.TestIpTracking.test_summary_display_data" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_privilege.TestPrivilege.test_user_verify_email" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -509,12 +477,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_summary_report.TestIpTracking.test_summary_display_data&quot;" />
+      <option name="_new_target" value="&quot;test_privilege.TestPrivilege.test_user_verify_email&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_summary_report.TestIpTracking.test_summary_report_csv" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_zoomview.TestZoomView" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -524,18 +494,20 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_summary_report.TestIpTracking.test_summary_report_csv&quot;" />
+      <option name="_new_target" value="&quot;test_zoomview.TestZoomView&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_report_csv" />
-        <item itemvalue="Python tests.Python tests for test_summary_report.TestIpTracking.test_select_date_and_time" />
-        <item itemvalue="Python tests.Python tests for test_summary_report.TestIpTracking.test_summary_display_data" />
-        <item itemvalue="Python tests.Python tests for test_summary_report.TestIpTracking" />
-        <item itemvalue="Python tests.Python tests for test_geotraffic.TestGeotraffic.test_geo_traffic_table_data" />
+        <item itemvalue="Python tests.pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data" />
+        <item itemvalue="Python tests.pytest for test_zoomview.TestZoomView" />
+        <item itemvalue="Python tests.pytest for test_instance.TestInstance" />
+        <item itemvalue="Python tests.pytest for test_privilege.TestPrivilege.test_user_verify_email" />
+        <item itemvalue="Python tests.pytest for test_privilege.TestPrivilege.test_user_edit_actions" />
       </list>
     </recent_temporary>
   </component>

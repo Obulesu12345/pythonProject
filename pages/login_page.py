@@ -68,8 +68,8 @@ class LoginPage:
 
     def verify_log_in_page_instance_message_xpath(self):
         # try:
-        element = self.driver.find_element(By.XPATH, self.verify_after_log_in_page_message_xpath).text
-        return element
+        return self.driver.find_element(By.XPATH, self.verify_after_log_in_page_message_xpath).text
+        # return element
             # interact with the element
         # except NoSuchElementException:
         #     print("Element not found")

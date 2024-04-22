@@ -14,7 +14,7 @@ class TestLogin:
         assert login.verify_login_page().__eq__(message)
         login.check_verify_login_page()
         login.current_url()
-        self.driver.save_screenshot("login_page_verify2.png")
+        # self.driver.save_screenshot("login_page_verify2.png")
         self.driver.quit()
 
     # def test_incorrect_url(self):
@@ -45,14 +45,13 @@ class TestLogin:
         login_page = LoginPage(self.driver)
         login_page.email_address("abdul@gmail.com")
         login_page.email_address_password("Tulasi@1234")
-        # self.driver.implicitly_wait(10)
         login_page.click_login()
         self.driver.implicitly_wait(10)
         message = "Instances"
         assert login_page.verify_log_in_page_instance_message_xpath().__eq__(message)
         login_page.check_home_page_page()
         login_page.current_url()
-        self.driver.save_screenshot("login_with_credentials.png")
+        # self.driver.save_screenshot("login_with_credentials.png")
         self.driver.quit()
 
     def test_login_page_with_wrong_credentials(self):
@@ -65,7 +64,7 @@ class TestLogin:
         assert login_page.verify_message_wrong_credentials().__eq__(message)
         login_page.check_wrong_credentials_message()
         login_page.current_url()
-        self.driver.save_screenshot("login_wrong_credentials.png")
+        # self.driver.save_screenshot("login_wrong_credentials.png")
         self.driver.quit()
 
     def test_login_page_with_wrong_email(self):
@@ -75,7 +74,7 @@ class TestLogin:
         assert login_page.verify_message_wrong_mail.__eq__(message)
         login_page.check_wrong_mail_message()
         login_page.current_url()
-        self.driver.save_screenshot("login_wrong_email.png")
+        # self.driver.save_screenshot("login_wrong_email.png")
         self.driver.quit()
     # #
     def test_login_page_with_wrong_password(self):
@@ -86,7 +85,7 @@ class TestLogin:
         assert login_page.verify_message_wrong_password.__eq__(message)
         login_page.check_wrong_password_message()
         login_page.current_url()
-        self.driver.save_screenshot("login_wrong.png")
+        # self.driver.save_screenshot("login_wrong.png")
         self.driver.quit()
     #
     def test_login_page_with_empty_credentials(self):
@@ -109,7 +108,7 @@ class TestLogin:
         assert login_page.verify_forgot_password.__eq__(message)
         login_page.check_forgot_password_message()
         login_page.current_url()
-        self.driver.save_screenshot("login_forgot_password.png")
+        # self.driver.save_screenshot("login_forgot_password.png")
         self.driver.quit()
     # #
     def test_forgot_password_entered_wrong_mail(self):
@@ -123,7 +122,7 @@ class TestLogin:
         assert login_page.verify_forgot_enter_email.__eq__(message)
         login_page.check_forgot_password_wrong_email_message()
         login_page.current_url()
-        self.driver.save_screenshot("log_in_forgot_password_wrong_email.png")
+        # self.driver.save_screenshot("log_in_forgot_password_wrong_email.png")
         self.driver.quit()
 
     def test_forgot_password_entered_with_mail(self):
@@ -150,9 +149,9 @@ class TestLogin:
         assert login_page.verify_password_reset_message.__eq__(message)
         login_page.check_verify_password_reset_message()
         login_page.current_url()
-        folder_path = "screenshots"
-        screenshot_path = os.path.join(folder_path, "login_password_reset.png")
-        self.driver.save_screenshot(screenshot_path)
+        # folder_path = "screenshots"
+        # screenshot_path = os.path.join(folder_path, "login_password_reset.png")
+        # self.driver.save_screenshot(screenshot_path)
         self.driver.quit()
     #
     def test_forgot_password_otp(self):
@@ -185,7 +184,7 @@ class TestLogin:
         login_page.forgot_confirm_password("Tulasi@1234")
         login_page.forgot_set_password_button()
         login_page.current_url()
-        self.driver.save_screenshot("login_forgot_password_otp.png")
+        # self.driver.save_screenshot("login_forgot_password_otp.png")
         self.driver.quit()
     # #
     def test_login_page_with_credentials_verify_dashboard_page(self):
@@ -198,7 +197,7 @@ class TestLogin:
         assert login_page.verify_log_in_page_instance_message_xpath().__eq__(message)
         login_page.check_verify_log_in_page_instance_message()
         login_page.current_url()
-        self.driver.save_screenshot("login_dashboard_page.png")
+        # self.driver.save_screenshot("login_dashboard_page.png")
         self.driver.quit()
     #
     def test_forgot_password_back_to_login(self):
@@ -230,7 +229,7 @@ class TestLogin:
         assert login_page.verify_logout().__eq__(message1)
         login_page.check_verify_login_back_message()
         login_page.current_url()
-        self.driver.save_screenshot("login_verify_page.png")
+        # self.driver.save_screenshot("login_verify_page.png")
         self.driver.quit()
 
 def generate_email_with_time_stamp():

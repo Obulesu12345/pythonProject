@@ -23,7 +23,7 @@ class TestPrivilege:
         assert privilage.hover_user_page().__eq__(message)
         privilage.check_verify_privilege_page_users_message()
         privilage.current_url()
-        self.driver.save_screenshot("privilege_verify_users_page.png")
+        # self.driver.save_screenshot("privilege_verify_users_page.png")
         self.driver.quit()
 
     def test_privilege_page_dropdown(self):
@@ -42,7 +42,7 @@ class TestPrivilege:
         message = "ADD USER"
         assert privilage.veriry_users_page().__eq__(message)
         privilage.current_url()
-        self.driver.save_screenshot("privilege_users_page.png")
+        # self.driver.save_screenshot("privilege_users_page.png")
         self.driver.quit()
 
     def test_add_user(self):
@@ -69,12 +69,12 @@ class TestPrivilege:
         privilage.add_user_data_phone("8790345527")
         time.sleep(1)
         privilage.add_user_invite_button()
-        time.sleep(1)
+        time.sleep(2)
         message = "Phone already taken"
         assert privilage.alert_otp_msg().__eq__(message)
         privilage.check_verify_privilege_page_alert_otp_message()
         privilage.current_url()
-        self.driver.save_screenshot("privilege_add_user.png")
+        # self.driver.save_screenshot("privilege_add_user.png")
         self.driver.quit()
 
     def test_users_table_data(self):
@@ -94,7 +94,7 @@ class TestPrivilege:
         privilage.users_total_columns()
         privilage.privilege_table_data()
         time.sleep(1)
-        self.driver.save_screenshot("privilege_table.png")
+        # self.driver.save_screenshot("privilege_table.png")
         self.driver.quit()
 
     def test_user_table_actions_for_instance(self):
@@ -121,7 +121,7 @@ class TestPrivilege:
         message = "Assigned instances!"
         assert privilage.alert_otp_msg().__eq__(message)
         privilage.check_verify_instance_page_for_alert_otp_message()
-        self.driver.save_screenshot("privilege_action_instance.png")
+        # self.driver.save_screenshot("privilege_action_instance.png")
         self.driver.quit()
 
 
@@ -147,8 +147,7 @@ class TestPrivilege:
         message = "Assigned roles!"
         assert privilage.alert_otp_msg().__eq__(message)
         privilage.check_verify_role_page_for_alert_otp_message()
-        time.sleep(3)
-        self.driver.save_screenshot("privilege_action_role.png")
+        # self.driver.save_screenshot("privilege_action_role.png")
         self.driver.quit()
 
     def test_user_edit_actions(self):
@@ -173,8 +172,7 @@ class TestPrivilege:
         message1 = "Updated data of TulasiRam!"
         assert privilage.alert_otp_msg().__eq__(message1)
         privilage.check_verify_privilege_page_for_edit_page_otp_message()
-        time.sleep(3)
-        self.driver.save_screenshot("privilege_action_edit.png")
+        # self.driver.save_screenshot("privilege_action_edit.png")
         self.driver.quit()
 
     def test_user_password_actions(self):
@@ -194,7 +192,7 @@ class TestPrivilege:
         time.sleep(2)
         message = "You can reset password for TulasiRam r"
         assert privilage.verify_password().__eq__(message)
-        self.driver.save_screenshot("privilege_action_password.png")
+        # self.driver.save_screenshot("privilege_action_password.png")
         self.driver.quit()
 
     def test_user_log_actions(self):
@@ -213,7 +211,7 @@ class TestPrivilege:
         privilage.action_button_list_for_logs()
         time.sleep(2)
         privilage.privilege_logs_table_data()
-        self.driver.save_screenshot("privilege_action_logs.png")
+        # self.driver.save_screenshot("privilege_action_logs.png")
         self.driver.quit()
 
 
@@ -231,12 +229,11 @@ class TestPrivilege:
         privilage.privilege_page()
         time.sleep(2)
         privilage.action_button_list_for_verify_email()
-        time.sleep(2)
+        time.sleep(3)
         message = "Sent email for verification!"
         assert privilage.alert_otp_msg().__eq__(message)
         privilage.check_verify_privilege_page_for_verify_page_otp_message()
-        self.driver.save_screenshot("privilege_action_verify_email.png")
-        time.sleep(2)
+        # self.driver.save_screenshot("privilege_action_verify_email.png")
         self.driver.quit()
 
 

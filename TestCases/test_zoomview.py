@@ -27,7 +27,7 @@ class TestZoomView:
         message = 'Zoom View'
         assert zoomview.verify_manage_page().__eq__(message)
         zoomview.current_url()
-        self.driver.save_screenshot("manage_zoomview_page.png")
+        # self.driver.save_screenshot("manage_zoomview_page.png")
         self.driver.quit()
 
 
@@ -44,7 +44,7 @@ class TestZoomView:
         message = "Services"
         assert zoomview.verify_zoomview_page().__eq__(message)
         zoomview.current_url()
-        self.driver.save_screenshot("manage_verify_zoomview_page.png")
+        # self.driver.save_screenshot("manage_verify_zoomview_page.png")
         self.driver.quit()
 
     def test_zoomview_service_page_select_one_instance(self):
@@ -66,7 +66,7 @@ class TestZoomView:
         time.sleep(1)
         zoomview.hostname_data()
         time.sleep(2)
-        self.driver.save_screenshot("zoomview_page_select_one_instance_service.png")
+        # self.driver.save_screenshot("zoomview_page_select_one_instance_service.png")
         self.driver.quit()
 
 
@@ -89,7 +89,7 @@ class TestZoomView:
         time.sleep(1)
         zoomview.hostname_data()
         time.sleep(2)
-        self.driver.save_screenshot("zoomview_page_select_one_instance_service.png")
+        # self.driver.save_screenshot("zoomview_page_select_one_instance_service.png")
         self.driver.quit()
 
 
@@ -111,7 +111,7 @@ class TestZoomView:
         time.sleep(1)
         zoomview.service_table_data()
         time.sleep(2)
-        self.driver.save_screenshot("zoomview_page_service_table_data.png")
+        # self.driver.save_screenshot("zoomview_page_service_table_data.png")
         self.driver.quit()
 
     def test_service_total_instance_count(self):
@@ -126,7 +126,7 @@ class TestZoomView:
         login.location_dropdown()
         zoomview = ZoomViewPage(self.driver)
         zoomview.dashboard_total_intances()
-        self.driver.save_screenshot("zoomview_page_total_service_panals.png")
+        # self.driver.save_screenshot("zoomview_page_total_service_panals.png")
         self.driver.quit()
         # zoomview.manage_zoomview_page()
         # time.sleep(1)
@@ -153,7 +153,7 @@ class TestZoomView:
         time.sleep(1)
         zoomview.pause_alerts_table_data()
         time.sleep(1)
-        self.driver.save_screenshot("zoomview_page_total_service_pause_alrets_table.png")
+        # self.driver.save_screenshot("zoomview_page_total_service_pause_alrets_table.png")
         self.driver.quit()
 
     def test_zoomview_service_check_instance_page(self):
@@ -173,7 +173,7 @@ class TestZoomView:
         time.sleep(1)
         message = "Select Instance"
         assert zoomview.verify_instance_panel().__eq__(message)
-        self.driver.save_screenshot("zoomview_page_verify_service_instance_.png")
+        # self.driver.save_screenshot("zoomview_page_verify_service_instance_.png")
         self.driver.quit()
 
     def test_graph_page(self):
@@ -193,7 +193,7 @@ class TestZoomView:
         time.sleep(1)
         message = "15 mins data"
         assert zoomview.verify_graph_page().__eq__(message)
-        self.driver.save_screenshot("zoomview_page_verify_graph_page_.png")
+        # self.driver.save_screenshot("zoomview_page_verify_graph_page_.png")
         self.driver.quit()
 
     def test_graph_one_instance(self):
@@ -276,7 +276,7 @@ class TestZoomView:
         time.sleep(1)
         message = "Internet Activities"
         assert zoomview.verify_internet_activities_page().__eq__(message)
-        self.driver.save_screenshot("zoomview_page_verify_internet_page_.png")
+        # self.driver.save_screenshot("zoomview_page_verify_internet_page_.png")
         self.driver.quit()
 
     def test_internet_total_instances(self):
@@ -294,7 +294,7 @@ class TestZoomView:
         time.sleep(1)
         zoomview.total_instances()
         time.sleep(1)
-        self.driver.save_screenshot("zoomview_page_internet_total_instances_.png")
+        # self.driver.save_screenshot("zoomview_page_internet_total_instances_.png")
         self.driver.quit()
 
     def test_internet_instance_page(self):
@@ -326,7 +326,7 @@ class TestZoomView:
         # time.sleep(1)
         zoomview.internet_instance_hostname()
         time.sleep(1)
-        self.driver.save_screenshot("zoomview_page_instance_page_.png")
+        # self.driver.save_screenshot("zoomview_page_instance_page_.png")
 
         self.driver.quit()
 
@@ -352,7 +352,7 @@ class TestZoomView:
         time.sleep(1)
         zoomview.verify_interval_button_text()
         time.sleep(1)
-        self.driver.save_screenshot("zoomview_page_verify_internet_instance_page_.png")
+        # self.driver.save_screenshot("zoomview_page_verify_internet_instance_page_.png")
         self.driver.quit()
 
 
@@ -379,7 +379,7 @@ class TestZoomView:
         time.sleep(1)
         zoomview.verify_interval_button_text()
         time.sleep(1)
-        self.driver.save_screenshot("zoomview_page_verify_graph_instance_page_.png")
+        # self.driver.save_screenshot("zoomview_page_verify_graph_instance_page_.png")
         self.driver.quit()
 
     def test_internet_activities_page(self):
@@ -397,7 +397,7 @@ class TestZoomView:
         time.sleep(1)
         zoomview.internet_activities_table()
         time.sleep(1)
-        self.driver.save_screenshot("zoomview_page_internet_activities_page_.png")
+        # self.driver.save_screenshot("zoomview_page_internet_activities_page_.png")
         self.driver.quit()
 
     def test_internet_external_communication_page(self):
@@ -502,7 +502,7 @@ class TestZoomView:
         zoomview.session_flow__table()
         time.sleep(3)
         zoomview.session_flow_table_data()
-        self.driver.save_screenshot("zoomview_page_internet_session_flow_page_.png")
+        # self.driver.save_screenshot("zoomview_page_internet_session_flow_page_.png")
         self.driver.quit()
 
 

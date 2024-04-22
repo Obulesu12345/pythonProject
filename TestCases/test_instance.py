@@ -17,7 +17,7 @@ class TestInstance:
           message = "Instance"
           assert instance.verify_dashboard_manage_page().__eq__(message)
           instance.current_url()
-          self.driver.save_screenshot("manage_instance_page.png")
+          # self.driver.save_screenshot("manage_instance_page.png")
           self.driver.quit()
 
      def test_manage_instance_page(self):
@@ -36,7 +36,7 @@ class TestInstance:
           message = "Instances"
           assert instance.verify_instances_text().__eq__(message)
           instance.current_url()
-          self.driver.save_screenshot("instance_page.png")
+          # self.driver.save_screenshot("instance_page.png")
           self.driver.quit()
 
      def test_manage_instance_page_table_data(self):
@@ -53,7 +53,7 @@ class TestInstance:
           instance.instance_page()
           time.sleep(1)
           instance.instance_page_table_data()
-          self.driver.save_screenshot("manage_instance_page_table.png")
+          # self.driver.save_screenshot("manage_instance_page_table.png")
           self.driver.quit()
 
      def test_manage_instance_table_click_on_instance(self):
@@ -72,7 +72,7 @@ class TestInstance:
           instance.table_instance_button()
           time.sleep(2)
           instance.instance_page_under_table_data()
-          self.driver.save_screenshot("instance_page_table.png")
+          # self.driver.save_screenshot("instance_page_table.png")
 
      def test_manage_instance_table_click_on_notification(self):
           login_page = LoginPage(self.driver)
@@ -90,7 +90,7 @@ class TestInstance:
           instance.table_instance_notification_button()
           time.sleep(2)
           instance.instance_page_under_notification_table_data()
-          self.driver.save_screenshot("instance_notification_data.png")
+          # self.driver.save_screenshot("instance_notification_data.png")
           self.driver.quit()
 
 
@@ -121,7 +121,7 @@ class TestInstance:
           instance.graphs_data()
           time.sleep(1)
           instance.current_url()
-          self.driver.save_screenshot("instance_performance_page.png")
+          # self.driver.save_screenshot("instance_performance_page.png")
 
 
      def test_instance_performance_select_one_instance(self):
@@ -159,7 +159,7 @@ class TestInstance:
           instance.submit_button()
           self.driver.implicitly_wait(10)
           instance.instances_graph_text()
-          self.driver.save_screenshot("one_instance_performance_page.png")
+          # self.driver.save_screenshot("one_instance_performance_page.png")
           self.driver.quit()
 
 
@@ -198,7 +198,7 @@ class TestInstance:
           instance.submit_button()
           self.driver.implicitly_wait(20)
           instance.cpu_graph_instances()
-          self.driver.save_screenshot("instance_performance_page_data.png")
+          # self.driver.save_screenshot("instance_performance_page_data.png")
 
      def test_instance_warning(self):
           login_page = LoginPage(self.driver)
@@ -216,7 +216,7 @@ class TestInstance:
           instance.instance_warnings()
           time.sleep(1)
           instance.instance_page_warning_table_data()
-          self.driver.save_screenshot("instance_warnings.png")
+          # self.driver.save_screenshot("instance_warnings.png")
 
      def test_instance_criticals(self):
           login_page = LoginPage(self.driver)
@@ -236,7 +236,7 @@ class TestInstance:
           time.sleep(3)
           instance.critical_table_data()
           time.sleep(3)
-          self.driver.save_screenshot("instance_critical.png")
+          # self.driver.save_screenshot("instance_critical.png")
 
      def test_instance_table_ok(self):
           login_page = LoginPage(self.driver)
@@ -252,7 +252,7 @@ class TestInstance:
           # instance.instance_page()
           time.sleep(1)
           instance.instance_table_ok_button()
-          self.driver.save_screenshot("instance_table_ok.png")
+          # self.driver.save_screenshot("instance_table_ok.png")
 
      def test_instance_table_warn(self):
           login_page = LoginPage(self.driver)
@@ -269,7 +269,7 @@ class TestInstance:
           instance.instance_page()
           time.sleep(5)
           instance.instance_table_warn_button()
-          self.driver.save_screenshot("instance_table_warn.png")
+          # self.driver.save_screenshot("instance_table_warn.png")
 
      def test_instance_table_crit(self):
           login_page = LoginPage(self.driver)
@@ -286,7 +286,7 @@ class TestInstance:
           instance.instance_page()
           time.sleep(5)
           instance.instance_table_crit_button()
-          self.driver.save_screenshot("instance_table_crit.png")
+          # self.driver.save_screenshot("instance_table_crit.png")
 
 
      def test_verify_instance_table_ok_and_dashboard_service_ok(self):
@@ -305,7 +305,7 @@ class TestInstance:
           # instance.instance_page()
           # time.sleep(5)
           # instance.instance_table_ok_button()
-          self.driver.save_screenshot("instance_table_ok.png")
+          # self.driver.save_screenshot("instance_table_ok.png")
 
 
 
@@ -322,7 +322,7 @@ class TestInstance:
           instance.location_dropdown()
           time.sleep(1)
           instance.verify_instance_table_warn_and_dashboard_warn()
-          self.driver.save_screenshot("instance_table_warn.png")
+          # self.driver.save_screenshot("instance_table_warn.png")
 
 
      def test_verify_instance_table_crit_and_ashboard_service_crit(self):
@@ -338,7 +338,7 @@ class TestInstance:
           instance.location_dropdown()
           time.sleep(1)
           instance.verify_instance_table_crit_and_dashboard_crit()
-          self.driver.save_screenshot("instance_table_crit.png")
+          # self.driver.save_screenshot("instance_table_crit.png")
 
 
      def test_instance_table_verify_total(self):
@@ -355,7 +355,7 @@ class TestInstance:
           # instance.instance_page()
           # time.sleep(5)
           instance.verify_total_service()
-          self.driver.save_screenshot("instance_table.png")
+          # self.driver.save_screenshot("instance_table.png")
 
 
      def test_instance_table_warnings(self):
@@ -375,7 +375,7 @@ class TestInstance:
           instance.instance_warnings()
           time.sleep(3)
           instance.instance_no_of_warnings()
-          self.driver.save_screenshot("instance_table_warnings.png")
+          # self.driver.save_screenshot("instance_table_warnings.png")
 
      def test_instance_table_criticals(self):
           login_page = LoginPage(self.driver)
@@ -394,7 +394,7 @@ class TestInstance:
           instance.instance_criticals()
           time.sleep(3)
           instance.instance_no_of_criticals()
-          self.driver.save_screenshot("instance_table_criticals.png")
+          # self.driver.save_screenshot("instance_table_criticals.png")
 
 
 

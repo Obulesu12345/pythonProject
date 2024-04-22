@@ -183,6 +183,7 @@ class Test_Login:
 
     verify_instances_xpath = "(//p[@class='MuiBox-root css-1dfxzqk'])[1]"
     verify_service_xpath = "(//p[@class='MuiBox-root css-1dfxzqk'])[2]"
+    verify_service_text_xpath = "//p[text()='Services']"
 
     verify_table_actions_add_tags_page_xpath = "//p[text()='MANAGE TAGS']"
     verify_table_actions_edit_instance_xpath="//label[text()='Current Instance Name']"
@@ -280,6 +281,10 @@ class Test_Login:
     def verify_table_actions_add_tags_page(self):
         return self.driver.find_element(By.XPATH, self.verify_table_actions_add_tags_page_xpath).text
 
+
+    def verify_services_text(self):
+        return self.driver.find_element(By.XPATH, self.verify_service_text_xpath).text
+
     def verify_services(self):
         return self.driver.find_element(By.XPATH, self.verify_service_xpath).text
 
@@ -305,8 +310,7 @@ class Test_Login:
 
     def verify_location(self):
         try:
-            element = self.driver.find_element(By.XPATH, self.verify_location_xpath).text
-            return element
+            return self.driver.find_element(By.XPATH, self.verify_location_xpath).text
         except NoSuchElementException:
             print("Element not found")
 
