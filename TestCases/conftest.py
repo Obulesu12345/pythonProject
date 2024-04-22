@@ -1,7 +1,8 @@
 from selenium import webdriver
-from utilitie import ReadConfiguration
+# from utilitie import ReadConfiguration
 import pytest
-
+import sys
+print(sys.path)
 @pytest.fixture()
 def setup_and_teardown(request):
     browser = ReadConfiguration.read_configuration("basic info","browser")
