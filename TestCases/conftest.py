@@ -1,5 +1,5 @@
 from selenium import webdriver
-from utilities import ReadConfiguration
+from utilitie import ReadConfiguration
 import pytest
 
 @pytest.fixture()
