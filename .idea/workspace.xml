@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2644f19a-cb92-4663-8b65-a42cfd624117" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities/ReadConfiguration.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/ReadConfiguration.py" afterDir="false" />
@@ -405,7 +404,7 @@
       <recent name="C:\Users\zcsu058\PycharmProjects\pythonProject\Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_login.TestLogin.test_login_page_with_credentials">
+  <component name="RunManager" selected="Python tests.pytest for test_login.TestLogin.test_login_verify">
     <configuration name="pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -493,8 +492,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_page_with_credentials" />
         <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_verify" />
+        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_page_with_credentials" />
         <item itemvalue="Python tests.pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data" />
         <item itemvalue="Python tests.pytest for test_zoomview.TestZoomView" />
         <item itemvalue="Python tests.pytest for test_instance.TestInstance" />

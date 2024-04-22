@@ -46,7 +46,7 @@ class TestLogin:
         login_page.email_address("abdul@gmail.com")
         login_page.email_address_password("Tulasi@1234")
         login_page.click_login()
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(10)
         message = "Instances"
         assert login_page.verify_log_in_page_instance_message_xpath().__eq__(message)
         login_page.check_home_page_page()
