@@ -1,5 +1,5 @@
 from selenium import webdriver
-# from utilitie import ReadConfiguration
+from utilities import ReadConfiguration
 import pytest
 import sys
 print(sys.path)
