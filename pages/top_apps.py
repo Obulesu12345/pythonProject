@@ -230,6 +230,17 @@ class Topapps:
                 ele.click()
                 break
 
+        hour = self.driver.find_element(By.XPATH, "(//span[contains(@data-index,'0')])[1]")
+        actions = ActionChains(self.driver)
+        actions.drag_and_drop_by_offset(hour, 100, 0).perform()
+
+        element = self.driver.find_element(By.XPATH, "(//input[contains(@aria-invalid,'false')])[3]")
+        element.click()
+        time.sleep(2)
+        minute = self.driver.find_element(By.XPATH, "(//span[contains(@data-index,'0')])[2]")
+        actions = ActionChains(self.driver)
+        actions.drag_and_drop_by_offset(minute, 100, 0).perform()
+
 
     def to_date(self):
         element = self.driver.find_element(By.XPATH, "(//input[contains(@aria-invalid,'false')])[4]")
@@ -249,6 +260,17 @@ class Topapps:
                 ele.click()
                 break
 
+        hour = self.driver.find_element(By.XPATH, "(//span[contains(@data-index,'0')])[1]")
+        actions = ActionChains(self.driver)
+        # for i in range(100, 0, -1):
+        #     actions.drag_and_drop_by_offset(hour, -i, 0).perform()
+        actions.drag_and_drop_by_offset(hour, 100, 0).perform()
+        element = self.driver.find_element(By.XPATH, "(//input[contains(@aria-invalid,'false')])[4]")
+        element.click()
+        time.sleep(2)
+        minute = self.driver.find_element(By.XPATH, "(//span[contains(@data-index,'0')])[2]")
+        actions = ActionChains(self.driver)
+        actions.drag_and_drop_by_offset(minute, 100, 0).perform()
 
     def verify_apps_page(self):
         return self.driver.find_element(By.XPATH, self.verify_apps_page_xpath).text

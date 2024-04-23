@@ -65,13 +65,13 @@ class TestBandwidth:
         band.from_date()
         time.sleep(3)
         band.to_date()
-        time.sleep(5)
-        # band.submit_button()
-        # self.driver.implicitly_wait(10)
-        # message = "Bandwidth | All IP"
-        # assert band.verify_bandwidth_page().__eq__(message)
-        # band.band_table_data()
-        # self.driver.quit()
+        time.sleep(2)
+        band.submit_button()
+        self.driver.implicitly_wait(10)
+        message = "Bandwidth | All IP"
+        assert band.verify_bandwidth_page().__eq__(message)
+        band.band_table_data()
+        self.driver.quit()
 
 
     def test_table_verify_each_row_table_data(self):

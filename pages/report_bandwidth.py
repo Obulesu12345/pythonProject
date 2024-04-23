@@ -137,15 +137,17 @@ class Bandwidth:
                 ele.click()
                 break
 
-        offset_minutes = 0
-        offset_seconds = 0
-        before_minute = self.driver.find_element(By.XPATH, "(//input[contains(@type,'range')])[1]")
-        before_min = self.driver.find_element(By.XPATH, "(//input[contains(@min,'0')])")
-        after_minute = self.driver.find_element(By.XPATH, "(//input[contains(@value,'0')])[2]")
-        before_sec = self.driver.find_element(By.XPATH, "(//input[contains(@type,'range')])[2]")
-        after_sec = self.driver.find_element(By.XPATH, "//div[@class='MuiBox-root css-8atqhb']/span[2]/span[3]")
+
+        hour = self.driver.find_element(By.XPATH, "(//span[contains(@data-index,'0')])[1]")
         actions = ActionChains(self.driver)
-        actions.drag_and_drop_by_offset(before_min, -100, 0).perform()
+        actions.drag_and_drop_by_offset(hour, 100, 0).perform()
+
+        element = self.driver.find_element(By.XPATH, "(//input[contains(@aria-invalid,'false')])[3]")
+        element.click()
+        time.sleep(2)
+        minute = self.driver.find_element(By.XPATH, "(//span[contains(@data-index,'0')])[2]")
+        actions = ActionChains(self.driver)
+        actions.drag_and_drop_by_offset(minute, 0, 100).perform()
         # actions.click_and_hold(before_min).move_by_offset(100, 0).release().perform()
         # actions.drag_and_drop_by_offset(before_minute, 0, offset_minutes)
         # actions.drag_and_drop_by_offset(before_sec, 0, offset_seconds)
@@ -167,12 +169,20 @@ class Bandwidth:
             if ele.text == "3":
                 ele.click()
                 break
-        offset_seconds = 0
-        before_sec = self.driver.find_element(By.XPATH, "(//input[contains(@type,'range')])[2]")
-        after_sec = self.driver.find_element(By.XPATH, "//div[@class='MuiBox-root css-8atqhb']/span[2]/span[3]")
+
+        hour = self.driver.find_element(By.XPATH, "(//span[contains(@data-index,'0')])[1]")
         actions = ActionChains(self.driver)
-        actions.drag_and_drop_by_offset(before_sec, 0, offset_seconds)
-        # actions.click_and_hold(before_minute).move_to_element(after_minute).release().perform()
+        for i in range(100, 0, -1):
+            actions.drag_and_drop_by_offset(hour, -i, 0).perform()
+        # actions.drag_and_drop_by_offset(hour, 100, 0).perform()
+        element = self.driver.find_element(By.XPATH, "(//input[contains(@aria-invalid,'false')])[4]")
+        element.click()
+        time.sleep(2)
+        minute = self.driver.find_element(By.XPATH, "(//span[contains(@data-index,'0')])[2]")
+        actions = ActionChains(self.driver)
+        actions.drag_and_drop_by_offset(minute, 100, 0).perform()
+
+
 
     def bandwidth_table_received_data(self):
         data = self.driver.find_elements(By.XPATH, self.received_data_xpath)

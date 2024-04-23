@@ -64,9 +64,9 @@ class TestIpTracking:
         self.driver.implicitly_wait(20)
         message = "External IP Communication | 154.83.3.29"
         assert ip.verify_table_title().__eq__(message)
-        folder_path = "screenshots"
-        screenshot_path = os.path.join(folder_path, "verify_summary_page_table.png")
-        self.driver.save_screenshot(screenshot_path)
+        # folder_path = "screenshots"
+        # screenshot_path = os.path.join(folder_path, "verify_summary_page_table.png")
+        # self.driver.save_screenshot(screenshot_path)
         self.driver.quit()
 
 

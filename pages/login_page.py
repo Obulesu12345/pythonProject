@@ -29,7 +29,7 @@ class LoginPage:
     forgot_password_email_text_xpath = "//input[contains(@id,'forgot-password-email')]"
     verify_forgot_password_for_wrong_email_xpath = "//ul[@class='MuiBox-root css-dbde']/li[1]"
     verify_reset_password_button_xpath = "//button[contains(@type,'button')]/span[@class='MuiTouchRipple-root css-w0pj6f']//preceding::button"
-    verify_password_reset_message_xpath = "//p[@class='MuiTypography-root MuiTypography-body1 css-1gjww4s']"
+    verify_password_reset_message_xpath = "//div[@class='MuiBox-root css-8atqhb']/h3"
     login_back_button_xpath = "//button[contains(@type,'button')]//child::span[1]"
     verify_login_back__page_message_xpath = "//h3[@class='MuiTypography-root MuiTypography-h3 css-b309xq']"
     verify_incorrect_url_page_xpath = "//*[text()='404']"
@@ -47,7 +47,7 @@ class LoginPage:
     enter_otp4_xpath = "//input[contains(@aria-label,'Digit 4')]"
     enter_otp5_xpath = "//input[contains(@aria-label,'Digit 5')]"
     enter_otp6_xpath = "//input[contains(@aria-label,'Digit 6')]"
-    verify_enter_otp_xpath = "//p[text()='Please enter the OTP that we just sent to your email address.']"
+    verify_enter_otp_xpath = "//div[@class='MuiBox-root css-8atqhb']/p"
     enter_otp_submit_xpath = "//button[text()='Continue']"
 
     forgot_new_password_xpath = "//input[@name='newPassword']"
@@ -58,7 +58,7 @@ class LoginPage:
 
     def current_url(self):
         current_url = self.driver.current_url
-        print(current_url)
+        print("url:-", current_url)
 
     # def screen_shots(self,):
     #     folder_path = "screenshots"
@@ -133,6 +133,14 @@ class LoginPage:
             return element
         except NoSuchElementException:
             print("Element not found")
+
+
+    def check_verify_enter_otp(self):
+        data = self.driver.find_element(By.XPATH, self.verify_enter_otp_xpath).text
+        if data == "We have sent an OTP to ab******om. Please check your inbox/spam folder and enter the OTP to proceed":
+            print("Successfully displayed message is We have sent an OTP to ab******om. Please check your inbox/spam folder and enter the OTP to proceed")
+        else:
+            print("Not displayed")
 
 
     def submit(self):
@@ -282,9 +290,10 @@ class LoginPage:
         data = self.driver.find_element(By.XPATH, self.verify_login_page_xpath).text
         # return data
         if data == "Cloud Operating Console":
-            print("successfully displayed message is Cloud Operating Console")
+            print("login page is opened successfully ")
+            # print("successfully displayed message is Cloud Operating Console")
         else:
-            print("not succesfully login")
+            print("login page is not opened, its opening another page")
 
 
     def email_address(self,email_addrees_text):
@@ -366,9 +375,10 @@ class LoginPage:
     def check_home_page_page(self):
         data = self.driver.find_element(By.XPATH, self.verify_after_log_in_page_message_xpath).text
         if data == "Instances":
-            print("successfully login with Instances page")
+            print("Dashboard page is opened successfully")
+            # print("successfully login with Instances page")
         else:
-            print("not succesfully login")
+            print("Dashboard page is not opened ")
 
     def verify_message_wrong_credentials(self):
         try:
@@ -379,9 +389,9 @@ class LoginPage:
     def check_wrong_credentials_message(self):
         data = self.driver.find_element(By.XPATH, self.verify_wrong_credentials_message_xpath).text
         if data == "Email ID or Password is wrong":
-            print("successfully displayed message is Email ID or Password is wrong")
+            print("Successfully displayed message is Email ID or Password is wrong")
         else:
-            print("not displayed")
+            print("Not displayed, please enter a valid email and password")
 
     def verify_message_wrong_mail(self):
         return self.driver.find_element(By.XPATH, self.verify_message_for_wrong_mail_xpath).text
@@ -389,9 +399,9 @@ class LoginPage:
     def check_wrong_mail_message(self):
         data = self.driver.find_element(By.XPATH, self.verify_message_for_wrong_mail_xpath).text
         if data == "Please enter a valid email":
-            print("successfully displayed message is Please enter a valid email")
+            print("Successfully Displayed message is Please enter a valid email")
         else:
-            print("not displayed")
+            print("Not displayed, please enter a valid email")
 
     def verify_message_wrong_password(self):
         return self.driver.find_element(By.XPATH, self.verify_message_for_valid_password_xpath).text
@@ -399,9 +409,9 @@ class LoginPage:
     def check_wrong_password_message(self):
         data = self.driver.find_element(By.XPATH, self.verify_message_for_valid_password_xpath).text
         if data == "Please enter valid password:":
-            print("successfully displayed message is Please enter valid password")
+            print("Successfully displayed message is Please enter valid password")
         else:
-            print("not displayed")
+            print("Not displayed, please enter a valid password")
 
 
     def verify_empty_credentials_message(self):
@@ -410,9 +420,10 @@ class LoginPage:
     def check_empty_credentials_message(self):
         data = self.driver.find_element(By.XPATH, self.verify_enter_your_login_credentials_message_xpath).text
         if data == "Enter your Login credentials":
-            print("successfully displayed message is Enter your Login credentials")
+            print("We are entering username and password is empty credentials")
+            # print("Successfully displayed message is Enter your Login credentials")
         else:
-            print("not displayed")
+            print("Please Enter your Login credentials")
 
     def click_forgot(self):
         try:
@@ -462,18 +473,14 @@ class LoginPage:
         else:
             print("not displayed")
     def reset_button(self):
-        try:
-            # Wait for the element to be clickable
-            element = self.driver.find_element(By.XPATH, self.verify_reset_password_button_xpath)
 
-            # Interact with the element
+        try:
+            element = self.driver.find_element(By.XPATH, self.verify_reset_password_button_xpath)
             element.click()
         except ElementNotInteractableException as e:
             print("Element is not interactable:", e)
 
-        # except ElementNotInteractableException as e:
-        #     print("Element is not interactable:", e)
-        # self.driver.find_element(By.XPATH, self.verify_reset_password_button_xpath).click()
+
 
     def verify_reset_button(self):
         return self.driver.find_element(By.XPATH, self.verify_reset_password_button_xpath)
@@ -483,8 +490,8 @@ class LoginPage:
 
     def check_verify_password_reset_message(self):
         data = self.driver.find_element(By.XPATH, self.verify_password_reset_message_xpath).text
-        if data == "We have sent an OTP to zebu@gmail.com. Please check your inbox/spam folder and enter the OTP to proceed":
-            print("successfully displayed message is We have sent an OTP to zebu@gmail.com. Please check your inbox/spam folder and enter the OTP to proceed")
+        if data == "Password Reset":
+            print("Successfully displayed message is Password Reset")
         else:
             print("not displayed")
 

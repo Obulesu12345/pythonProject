@@ -6,6 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="2644f19a-cb92-4663-8b65-a42cfd624117" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/dashboard_page.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/dashboard_page.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/ip_tracking_table_title.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/ip_tracking_table_title.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/location.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/location.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_band_width.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_band_width.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_lama.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_lama.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_summary_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_summary_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/time.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/time.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/verify_top_apps_table_.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/verify_top_apps_table_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/geo_traffic.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/geo_traffic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/ip_tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ip_tracking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lama.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lama.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/report_bandwidth.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/report_bandwidth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/summary_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/summary_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/top_apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/top_apps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,12 +266,34 @@
     "Python tests.Python tests for test_zoomview.TestZoomView.test_zoomview_service_check_instance_page.executor": "Run",
     "Python tests.Python tests for test_zoomview.TestZoomView.test_zoomview_service_page.executor": "Run",
     "Python tests.Python tests for test_zoomview.test_graph_all_instance.executor": "Run",
+    "Python tests.pytest for test_band_width.TestBandwidth.test_Select_date_and_time.executor": "Run",
     "Python tests.pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data.executor": "Run",
     "Python tests.pytest for test_band_width.TestBandwidth.test_report_bandwidth_login_page.executor": "Run",
     "Python tests.pytest for test_bandwidth.TestBandwidth.executor": "Run",
     "Python tests.pytest for test_bandwidth.TestBandwidth.test.executor": "Run",
     "Python tests.pytest for test_bandwidth.TestBandwidth.test_Select_date_and_time_and_display_data.executor": "Run",
     "Python tests.pytest for test_bandwidth.TestBandwidth.test_table_verify_single_row_table_data.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_configuration_page.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_configuration_page_add_page.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_configuration_page_csv.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_configuration_page_table.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_configuration_page_table_action_button.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_configuration_page_table_state.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_overview_page_device_status.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_overview_page_exchange.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_overview_page_link_insight_HA_logs.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_overview_page_link_insight_app_event_logs.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_overview_page_link_insight_app_latency.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_overview_page_link_insight_message.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_overview_page_link_status.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_overview_page_public.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_page.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_each_row_verify_table_data.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_router_drop_down.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_router_drop_down_and_interval_drop_down.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_table_data.executor": "Run",
+    "Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_table_data_for_topapps_airtel.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dash_board_report_page.executor": "Run",
     "Python tests.pytest for test_dashboard.Test_Login_Dashboard_Page.test_dashboard_instance_table_state.executor": "Run",
@@ -287,6 +326,7 @@
     "Python tests.pytest for test_geo_traffice.TestGeotraffic.test_geo_traffic_csv.executor": "Run",
     "Python tests.pytest for test_geo_traffice.TestGeotraffic.test_geo_traffic_table_data.executor": "Run",
     "Python tests.pytest for test_geo_traffice.TestGeotraffic.test_ip_tracking_verify_single_row_table_data.executor": "Run",
+    "Python tests.pytest for test_geotraffic.TestGeotraffic.test_select_date_and_time.executor": "Run",
     "Python tests.pytest for test_instance.TestInstance.executor": "Run",
     "Python tests.pytest for test_instance.TestInstance.test_instance_performance.executor": "Run",
     "Python tests.pytest for test_instance.TestInstance.test_instance_performance_select.executor": "Run",
@@ -311,7 +351,9 @@
     "Python tests.pytest for test_ip_tracking.TestIpTracking.test_verify_report_login_page.executor": "Run",
     "Python tests.pytest for test_lama.TestFirewall.test_setting_page.executor": "Run",
     "Python tests.pytest for test_lama.TestLama.executor": "Run",
+    "Python tests.pytest for test_lama.TestLama.test_lama__start_lama_page.executor": "Run",
     "Python tests.pytest for test_lama.TestLama.test_lama_uat_page.executor": "Run",
+    "Python tests.pytest for test_lama.TestLama.test_lama_verify_start_lama_page.executor": "Run",
     "Python tests.pytest for test_lama.TestLama.test_lama_verify_uat_page.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_forgot_password.executor": "Run",
@@ -321,11 +363,13 @@
     "Python tests.pytest for test_login.TestLogin.test_forgot_password_otp.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_forgot_password_reset.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_incorrect_url.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_login_page_with_correct_credentials.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_login_page_with_credentials.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_login_page_with_credentials_verify_dashboard_page.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_login_page_with_empty_credentials.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_login_page_with_wrong_credentials.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_login_page_with_wrong_email.executor": "Run",
+    "Python tests.pytest for test_login.TestLogin.test_login_page_with_wrong_email_and_wrong_password.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_login_page_with_wrong_password.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_login_verify.executor": "Run",
     "Python tests.pytest for test_login.TestLogin.test_logout_page.executor": "Run",
@@ -354,6 +398,7 @@
     "Python tests.pytest for test_signup.TestSignup.test_login_as_partner_as_verify_wrong_credentials.executor": "Run",
     "Python tests.pytest for test_signup.TestSignup.test_signup_verify.executor": "Run",
     "Python tests.pytest for test_summary_report.TestIpTracking.executor": "Run",
+    "Python tests.pytest for test_summary_report.TestIpTracking.test_select_date_and_time.executor": "Run",
     "Python tests.pytest for test_summary_report.TestIpTracking.test_summary_display_data.executor": "Run",
     "Python tests.pytest for test_summary_report.TestIpTracking.test_summary_report_csv.executor": "Run",
     "Python tests.pytest for test_summary_report.TestIpTracking.test_summary_report_each_row_table_data_for_Apps.executor": "Run",
@@ -403,8 +448,8 @@
       <recent name="C:\Users\zcsu058\PycharmProjects\pythonProject\Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_band_width.TestBandwidth.test_report_bandwidth_login_page">
-    <configuration name="pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_login.TestLogin.test_login_page_with_empty_credentials">
+    <configuration name="pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_each_row_verify_table_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -417,11 +462,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data&quot;" />
+      <option name="_new_target" value="&quot;test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_each_row_verify_table_data&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_band_width.TestBandwidth.test_report_bandwidth_login_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_table_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -434,11 +479,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_band_width.TestBandwidth.test_report_bandwidth_login_page&quot;" />
+      <option name="_new_target" value="&quot;test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_table_data&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login.TestLogin.test_login_page_with_credentials" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_table_data_for_topapps_airtel" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -451,11 +496,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.TestLogin.test_login_page_with_credentials&quot;" />
+      <option name="_new_target" value="&quot;test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_table_data_for_topapps_airtel&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login.TestLogin.test_login_verify" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.TestLogin.test_login_page_with_empty_credentials" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -468,11 +513,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.TestLogin.test_login_verify&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_login_page_with_empty_credentials&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_zoomview.TestZoomView" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.TestLogin.test_login_page_with_wrong_email_and_wrong_password" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -485,17 +530,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_zoomview.TestZoomView&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_login_page_with_wrong_email_and_wrong_password&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_band_width.TestBandwidth.test_report_bandwidth_login_page" />
-        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_verify" />
-        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_page_with_credentials" />
-        <item itemvalue="Python tests.pytest for test_band_width.TestBandwidth.test_Select_date_and_time_and_display_data" />
-        <item itemvalue="Python tests.pytest for test_zoomview.TestZoomView" />
+        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_page_with_empty_credentials" />
+        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_page_with_wrong_email_and_wrong_password" />
+        <item itemvalue="Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_table_data_for_topapps_airtel" />
+        <item itemvalue="Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_each_row_verify_table_data" />
+        <item itemvalue="Python tests.pytest for test_cloud_connect.TestCloudConnect.test_cloud_connect_usage_page_table_data" />
       </list>
     </recent_temporary>
   </component>

@@ -1073,7 +1073,6 @@ class Test_Login:
             subprocess.Popen(['notepad.exe', 'output.txt'])
 
     def table_data(self):
-
         row = self.driver.find_elements(By.XPATH, "//table[@class='MuiTable-root css-1udbzah']//tr")
         rows = len(row)
         column = self.driver.find_elements(By.XPATH, "//table[@class='MuiTable-root css-1udbzah']//th")
