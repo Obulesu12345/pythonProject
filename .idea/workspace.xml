@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2644f19a-cb92-4663-8b65-a42cfd624117" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/dashboard_page.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/dashboard_page.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/ip_tracking_table_title.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/ip_tracking_table_title.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/location.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/location.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_band_width.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_band_width.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_lama.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_lama.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_summary_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_summary_report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/time.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/time.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/verify_top_apps_table_.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/verify_top_apps_table_.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/geo_traffic.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/geo_traffic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ip_tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ip_tracking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lama.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lama.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/report_bandwidth.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/report_bandwidth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/summary_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/summary_report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/top_apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/top_apps.py" afterDir="false" />
-    </list>
+    <list default="true" id="2644f19a-cb92-4663-8b65-a42cfd624117" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

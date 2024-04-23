@@ -41,6 +41,7 @@ class TestLogin:
     #     self.driver.quit()
 
 
+
     def test_login_page_with_correct_credentials(self):
         login_page = LoginPage(self.driver)
         login_page.email_address("abdul@gmail.com")
